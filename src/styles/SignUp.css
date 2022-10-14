@@ -1,0 +1,49 @@
+.signup2{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #848884;
+    margin-top: 30px;
+    height: 60vh;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.proceed-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: crimson;
+    height:50px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.proceed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;;
+}
+
+
+/* ------------------MEDIA QUERY----------------- */
+
+@media only screen and (max-width:768px){
+    .signup2 img{
+        width: 70%;
+    }
+}
+    
